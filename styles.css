@@ -1,6 +1,5 @@
 body{
   font-family: 'Montserrat', sans-serif;
-  font-size: 80px;
   background-color: black;
   margin: 0;
 }
@@ -13,15 +12,17 @@ ul{
 
 li{
   list-style-type: none;
+  width: 100%;
 }
 
 a{
     text-decoration: none;
     color: red;
-}
-
-li a {
+    cursor: url('/img/cursor.png'), auto;
     display: block;
     text-align: center;
-    line-height: 1.5em;
+    line-height: 7vw;
+    font-size: 5vw;
+    width: 10%;
+    margin: auto;
 }

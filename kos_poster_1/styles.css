@@ -17,7 +17,7 @@ body{
 
 .line1{
     color: #9cdafc;
-    font-size: 200px;
+    font-size: 10vw;
     font-weight: 700;
     margin: 0;
     text-align: center;
@@ -30,8 +30,8 @@ body{
 
 .description {
     color: rgba(156, 218, 252, 0);
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 2vw;
+    line-height: 2.2vw;
     padding-left: 20px;
     position: fixed;
     margin: 0;
@@ -43,7 +43,7 @@ body{
 
 .line4{
     color: #9cdafc;
-    font-size: 200px;
+    font-size: 10vw;
     font-weight: 700;
     margin: 0;
     text-align: center;
