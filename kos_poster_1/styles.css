@@ -1,0 +1,55 @@
+body{
+    font-family: 'Fredoka One', cursive;
+    font-weight: normal;
+    line-height: 1;
+    min-width: 600px;
+    overflow: hidden;
+}
+
+.space{
+    position: fixed;
+    z-index: 1;
+    width: 40%;
+    height: 50%;
+    top: 25%;
+    left: 30%;
+}
+
+.line1{
+    color: #9cdafc;
+    font-size: 200px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    width: 40%;
+    height: 20%;
+    top: 25%;
+    left: 30%;
+}
+
+.description {
+    color: rgba(156, 218, 252, 0);
+    font-size: 36px;
+    line-height: 42px;
+    padding-left: 20px;
+    position: fixed;
+    margin: 0;
+    width: 30%;
+    height: 30%;
+    top: 35%;
+    left: 35%;
+}
+
+.line4{
+    color: #9cdafc;
+    font-size: 200px;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+    position: fixed;
+    width: 52%;
+    height: 30%;
+    top: 45%;
+    left: 24%;
+}

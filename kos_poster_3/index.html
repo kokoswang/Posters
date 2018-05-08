@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Keep Real</title>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+</head>
+
+<body>
+    <div id="nav">
+      <a href="/kos_poster_4">
+        <figure><img class="background" src="background.jpg"></figure>
+      </a>
+        <span onclick="changeText()">
+            <h1 class="text1" id="textA">be whoever<br>you want</h1>
+        </span>
+        <script>
+            function changeText() {
+                if (document.getElementById("textA").innerHTML == "be whoever<br>you want"){
+                    document.getElementById("textA").innerHTML = "keep real";
+                } else {
+                    document.getElementById("textA").innerHTML = "be whoever<br>you want";
+                }
+            }
+        </script>
+  </div>
+</body>
+
+</html>

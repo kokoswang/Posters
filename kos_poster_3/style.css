@@ -1,0 +1,44 @@
+body{
+  font-family: 'Bungee', cursive;
+  overflow: hidden;
+  margin: 0;
+}
+
+figure{
+  margin: 0;
+}
+
+.background{
+  width: 100%;
+  margin: 0;
+  margin-top: -10%;
+}
+
+.text1{
+  cursor: default;
+  text-transform: uppercase;
+  font-size: 120px;
+  color: red;
+  -webkit-text-stroke: 2px white;
+  position: fixed;
+  margin: 0;
+  bottom: 5%;
+  text-align: center;
+  width: 100%;
+  -webkit-animation: colorchange 3s infinite; /* Chrome, Safari, Opera */
+  animation: colorchange 3s infinite;
+}
+
+@-webkit-keyframes colorchange {
+    0%   {color:red;}
+    33%  {color:white;}
+    66%  {color:black;}
+    99%  {color:red;}
+}
+
+@-webkit-keyframes colorchange {
+    0%   {color:red;}
+    33%  {color:white;}
+    66%  {color:black;}
+    99%  {color:red;}
+}
