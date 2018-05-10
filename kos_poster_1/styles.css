@@ -16,7 +16,7 @@ body{
 }
 
 .line1{
-    color: #9cdafc;
+    color: #000;
     font-size: 10vw;
     font-weight: 700;
     margin: 0;
@@ -29,7 +29,7 @@ body{
 }
 
 .description {
-    color: rgba(156, 218, 252, 0);
+    color: rgba(0,0,0,0);
     font-size: 2vw;
     line-height: 2.2vw;
     padding-left: 20px;
@@ -42,7 +42,7 @@ body{
 }
 
 .line4{
-    color: #9cdafc;
+    color: #000;
     font-size: 10vw;
     font-weight: 700;
     margin: 0;

@@ -22,7 +22,7 @@ function Circle(x,y,d,dirX,dirY){
 
     this.draw = function draw(){
         noStroke();
-        fill(188,0,8,255/3);
+        fill(255,0,0,255/3);
         ellipse(this.x, this.y, this.d, this.d);
     }
 }
